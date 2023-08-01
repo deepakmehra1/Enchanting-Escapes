@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 74px;
+    background-color: black;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.nav-left{
+    font-size: 20px;
+    display: flex;
+    color:white;
+    padding: 50px;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+
+}
+.nav-left ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-right{
+    padding: 0px 60px 0px 0px;
+}
+
+.content{
+    height: 1200px;
+    /* background-color: yellow; */
+}
+
+.footer{
+    height: 200px;
+    background-color: #1f1515;
+}
+
+.content-top{
+    height: 400px;
+}
+.content-top img{
+    height: 100%;
+    width: 100%;
+}
+
+.content-middle{
+    text-align: center;
+}
+
+.content-middle-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #503131;
+    margin: 50px 0px;
+}
+
+.content-middle-paragraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+.content-location{
+    text-align: center;
+}
+
+.content-location-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #503131;
+    margin: 50px 0px;
+}
+.locations{
+    display: flex;
+    /* padding: 10px 10px; */
+    margin: 10px 10px;
+}
+
+.train{
+    margin: 10px 10px;
+    border: 1px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: grey;
+    background-color: #f2e8e8;
+}
+
+.bus{
+    margin: 10px 10px;
+    border: 1px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: grey;
+    background-color: #f2e8e8;
+}
+
+.aeroplane{
+    margin: 10px 10px;
+    border: 1px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: grey;
+    background-color: #f2e8e8;
+}
+
+.railheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #503131;
+}
+.aeroplaneheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #503131;
+}
+.busheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #503131;
+}
+
+.footer-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    /* margin: 10px 10px; */
+    padding: 40px;
+}
+
+.social-center{
+    align-items: center;
+}
+.social{
+    display: flex;
+    /* text-decoration: none; */
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 500px 0px 500px;
+}
+
+.social li{
+    list-style: none;
+}
+.social li a{
+     text-decoration: none;
+     align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hotels{
+    top: 75px;
+    margin-top: 80px;
+    height: 1300px;
+}
+
+.hotels-heading{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        color: #503131;
+        margin: 50px 0px;
+        text-align: center;
+}
+
+.first-hotel{
+       height: 200px;
+       display: flex;
+       border: 3px solid grey;
+       margin: 20px 50px 0px 50px;
+       background-color: #eceee8;
+
+}
+.first-hotel-left{
+      width: 244px;
+      padding: 25px 70px 30px 40px;
+}
+.first-hotel-right{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    /* text-align: center; */
+    color: #503131;
+    margin: 20px;
+}
+
+.img-hotel-1{
+    width: 244px;
+    height: 150px;
+}
+
+.gap{
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+.contact{
+    margin-top: 80px;
+    height: 600px;
+}
+.contact-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        color: #503131;
+        margin: 50px 0px;
+        text-align: center;
+}
+.contact-form{
+    margin: 0px 190px 0px 190px;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid black;
+    background-color: #f6f2ec;
+}
+
+
+
+
